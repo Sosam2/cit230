@@ -1,0 +1,49 @@
+body { 
+    font-size: 16px; 
+    line-height: 32px;
+    font-family: ubuntu, sans-serif;
+    color: /* #xxxxxx */;
+}
+
+h1 {
+    font-size: 18 ;
+    color: whitesmoke;
+}
+
+h2 {
+    font-size: 16;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: /* xxxpx (px = pixel is a unit of measure)  */;
+}
+
+header, footer, footer a {
+    text-align: center;
+    background-color: firebrick;
+    color: whitesmoke;
+}
+
+header img {
+    width: 200;
+    height: inherit;
+    float: right;
+    image-orientation: inherit;
+}
+    .rotateimg180 {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+}
+}
+
+footer {
+    font-size: 8;
+}
